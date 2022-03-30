@@ -18,7 +18,9 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
+
 ## Program:
+
 ~~~
 # Developed By: Yuvadarshini S
 # Register Number: 212221230126
@@ -76,10 +78,11 @@ blk_wd[50:150,50:150] = tag
 cv2.imshow('Avengers cut part',blk_wd)
 cv2.waitKey(0)
 ~~~
+
 ## Output:
 
 ### i) Read and display the image
-<br>
+
 
 Color Image
 
@@ -89,29 +92,22 @@ Grayscale Image
 
 ![Output](2.jpg)
 
-<br>
-<br>
-
 ### ii)Write the image
 ![Output](31.jpg)
 ![Output](32.jpg)
-<br>
-<br>
+
 
 ### iii)Shape of the Image
 ![Output](4.jpg)
-<br>
-<br>
+
 
 ### iv)Access rows and columns
 ![Output](5.jpg)
-<br>
-<br>
+
 
 ### v)Cut and paste portion of image
 ![Output](6.jpg)
-<br>
-<br>
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
