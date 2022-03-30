@@ -19,7 +19,7 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-```
+~~~
 # Developed By: Yuvadarshini S
 # Register Number: 212221230126
 
@@ -74,8 +74,9 @@ blk_wd=cv2.imread('Logo.jpg',1)
 tag = blk_wd[300:400:,300:400]
 blk_wd[50:150,50:150] = tag
 cv2.imshow('Avengers cut part',blk_wd)
-cv2.waitKey(0)
-```
+cv2.waitKey(0)\
+~~~
+
 ## Output:
 
 ### i) Read and display the image
