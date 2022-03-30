@@ -21,11 +21,11 @@ End the program and close the output image windows.
 
 ## Program:
 
-~~~
-# Developed By: Yuvadarshini S
-# Register Number: 212221230126
+```
+#Developed By: Yuvadarshini S
+#Register Number: 212221230126
 
-# To Read,display the image
+#To Read,display the image
 
 #Color image:
 
@@ -77,7 +77,8 @@ tag = blk_wd[300:400:,300:400]
 blk_wd[50:150,50:150] = tag
 cv2.imshow('Avengers cut part',blk_wd)
 cv2.waitKey(0)
-~~~
+
+```
 
 ## Output:
 
